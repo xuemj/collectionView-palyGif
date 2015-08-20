@@ -1,0 +1,27 @@
+//
+//  xiaorui.pch
+//  xiaoruiMusic
+//
+//  Created by ald on 15/8/18.
+//  Copyright (c) 2015年 xmj. All rights reserved.
+//
+
+#ifndef xiaoruiMusic_xiaorui_pch
+#define xiaoruiMusic_xiaorui_pch
+#import"Defines.h"
+#import<YTKNetwork/YTKRequest.h>
+#import "MBHUDHelper.h"
+#import "UIColor+NSString.h"
+#import "UIImage+ImageWithColor.h"
+#import "YRouterNavigationController.h"
+#import "UIViewExt.h"
+#import "NSString+StringToDic.h"
+#import "BlockUI.h"
+#import "YRouterNavigationController.h"
+#endif
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
